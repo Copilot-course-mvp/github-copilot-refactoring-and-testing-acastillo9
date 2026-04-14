@@ -1,0 +1,19 @@
+node_modules/
+dist/
+coverage/
+*.local
+
+# Playwright
+playwright-report/
+test-results/
+.playwright-mcp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

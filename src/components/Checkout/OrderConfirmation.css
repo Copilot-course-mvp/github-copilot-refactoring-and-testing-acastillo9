@@ -1,0 +1,77 @@
+.order-confirmation {
+  max-width: 500px;
+  margin: 2rem auto;
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.order-confirmation__icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.order-confirmation__title {
+  font-size: 1.8rem;
+  color: #27ae60;
+  margin: 0 0 0.5rem;
+}
+
+.order-confirmation__id {
+  color: #6b5b50;
+  font-size: 1rem;
+  margin: 0 0 1.5rem;
+}
+
+.order-confirmation__details {
+  text-align: left;
+  background: #faf7f5;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.order-confirmation__details h3 {
+  margin: 0 0 0.75rem;
+  color: #2c1810;
+  font-size: 1rem;
+}
+
+.order-confirmation__details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.order-confirmation__details li {
+  padding: 0.3rem 0;
+  color: #4a3f35;
+  border-bottom: 1px solid #e8e0d8;
+}
+
+.order-confirmation__total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  color: #2c1810;
+  padding-top: 0.5rem;
+  border-top: 2px solid #d4c8be;
+}
+
+.order-confirmation__new-order {
+  padding: 0.75rem 2rem;
+  background: #6f4e37;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.order-confirmation__new-order:hover {
+  background: #5a3d2b;
+}
